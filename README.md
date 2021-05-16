@@ -1,2 +1,3 @@
-# cms.hoatrinh.dev
-Strapi powered CMS for hoatrinh.dev
+# Strapi application
+
+A quick description of your strapi application
