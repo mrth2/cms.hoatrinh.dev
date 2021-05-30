@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "frameworks",
   "info": {
-    "name": "Framework"
+    "name": "Framework",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,15 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string",
       "unique": true,
       "required": true
     },
-    "Description": {
+    "description": {
       "type": "richtext"
     },
-    "Thumbnail": {
+    "thumbnail": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -28,6 +29,9 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "slogan": {
+      "type": "string"
     }
   }
 }

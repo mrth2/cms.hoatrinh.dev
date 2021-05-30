@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "databases",
+  "collectionName": "blogs",
   "info": {
-    "name": "Database",
-    "description": ""
+    "name": "Blog"
   },
   "options": {
     "increments": true,
@@ -12,12 +11,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
-      "type": "string",
-      "required": true,
-      "unique": true
+    "title": {
+      "type": "string"
     },
-    "description": {
+    "content": {
       "type": "richtext"
     },
     "thumbnail": {
@@ -29,9 +26,6 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
-    },
-    "slogan": {
-      "type": "string"
     }
   }
 }
