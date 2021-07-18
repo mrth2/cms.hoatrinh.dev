@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "works",
+  "collectionName": "programing_languages",
   "info": {
-    "name": "Work"
+    "name": "Programing Language"
   },
   "options": {
     "increments": true,
@@ -11,18 +11,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
-      "type": "string",
-      "required": true
-    },
-    "Description": {
-      "type": "richtext"
-    },
-    "cms": {
-      "collection": "cms"
+    "name": {
+      "type": "string"
     },
     "frameworks": {
       "collection": "framework"
+    },
+    "cms": {
+      "collection": "cms"
     }
   }
 }
